@@ -10,4 +10,8 @@ public class Gearbox {
         j1 = new Jaguar(channel1);
         j2 = new Jaguar(channel2);
     }
+    
+    public double getSpeed() {
+        return j1.get();
+    }
 }
